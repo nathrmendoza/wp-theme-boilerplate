@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WebpackVersionFile = require('webpack-version-file');
@@ -42,6 +43,10 @@ module.exports = {
             data : {
                 version : ver
             }
+        }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
         })
     ],
     output: {

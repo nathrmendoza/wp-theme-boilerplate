@@ -9,10 +9,13 @@
  * @subpackage SDEV WP
  * @since SDEV WP Theme 1.0
  */
-    get_header(); ?>
+    get_header(); 
+    global $wp_query;
+    ?>
 
         <main id="page">
-            Main body
+            default page
+        
         </main>
 
     <?php get_footer(); ?>

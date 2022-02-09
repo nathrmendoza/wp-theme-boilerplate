@@ -11,8 +11,8 @@
  */
     get_header(); ?>
 
-        <main id="page">
-            Main body
-        </main>
+    <main id="single-page">
+        Single
+    </main>
 
     <?php get_footer(); ?>

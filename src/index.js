@@ -1,4 +1,5 @@
-import {test} from './js/app';
-import './scss/main.scss';
+//main scripts
+import './js/app';
 
-test();
+//styles
+import './scss/main.scss';
