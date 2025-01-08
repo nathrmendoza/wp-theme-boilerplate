@@ -12,24 +12,24 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.17.0",
-    "autoprefixer": "^10.4.2",
-    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.26.0",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
     "babel-preset-env": "^1.7.0",
-    "css-loader": "^6.6.0",
-    "cssnano": "^5.0.16",
-    "mini-css-extract-plugin": "^2.5.3",
-    "node-sass": "^7.0.1",
-    "postcss-loader": "^6.2.1",
-    "sass-loader": "^12.4.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-version-file": "^0.1.6"
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node-sass": "^9.0.0",
+    "postcss-loader": "^8.1.1",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-version-file": "^0.1.7"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "jquery-ui": "^1.13.1",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.14.1",
     "slick-carousel": "^1.8.1"
   }
 }
